@@ -6,12 +6,14 @@ public class Mover : MonoBehaviour
 {
 
     Rigidbody rigidbody;
+    AudioSource audioSource;
     [SerializeField] float thrustSpeed = 100f;
     [SerializeField] float rotationSpeed = 100f;
     // Start is called before the first frame update
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,6 +29,14 @@ public class Mover : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             rigidbody.AddRelativeForce(Vector3.up * Time.deltaTime * thrustSpeed);
+            //audioSource.Stop();
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
+        } else
+        {
+            audioSource.Stop();
         }
     }
 
