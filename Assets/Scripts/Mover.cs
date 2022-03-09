@@ -7,6 +7,7 @@ public class Mover : MonoBehaviour
 
     Rigidbody rigidbody;
     AudioSource audioSource;
+    
     [SerializeField] float thrustSpeed = 100f;
     [SerializeField] float rotationSpeed = 100f;
     // Start is called before the first frame update

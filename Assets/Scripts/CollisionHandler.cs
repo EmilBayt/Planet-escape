@@ -5,23 +5,36 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
+    [SerializeField] float delayTime = 2f;
     void OnCollisionEnter(Collision other)
     {
         switch (other.gameObject.tag)
         {
             case "Obstacle":
-                ReloadLevel();
+                StartCrashSequence();
                 break;
             case "Fuel":
                 Debug.Log("You got fuel");
                 break;
             case "Finish":
-                LoadNextLevel();
+                StartSuccesSequence();
                 break;
             default:
                 Debug.Log("You are launching");
                 break;
         }
+    }
+
+    void StartCrashSequence()
+    {
+        GetComponent<Mover>().enabled = false;
+        Invoke("ReloadLevel", delayTime);
+    }
+
+    void StartSuccesSequence()
+    {
+        GetComponent<Mover>().enabled = false;
+        Invoke("LoadNextLevel", delayTime);
     }
 
     void ReloadLevel()
