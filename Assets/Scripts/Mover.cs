@@ -10,6 +10,7 @@ public class Mover : MonoBehaviour
     
     [SerializeField] float thrustSpeed = 100f;
     [SerializeField] float rotationSpeed = 100f;
+    [SerializeField] AudioClip engineSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,10 +31,9 @@ public class Mover : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             rigidbody.AddRelativeForce(Vector3.up * Time.deltaTime * thrustSpeed);
-            //audioSource.Stop();
             if (!audioSource.isPlaying)
             {
-                audioSource.Play();
+                audioSource.PlayOneShot(engineSound);
             }
         } else
         {
