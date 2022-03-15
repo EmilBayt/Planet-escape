@@ -11,6 +11,8 @@ public class CollisionHandler : MonoBehaviour
 
     AudioSource audioSource;
 
+    bool isTransitioning = false;
+
 
     private void Start()
     {
@@ -18,25 +20,27 @@ public class CollisionHandler : MonoBehaviour
     }
     void OnCollisionEnter(Collision other)
     {
-        switch (other.gameObject.tag)
+        if (!isTransitioning)
         {
-            case "Obstacle":
-                StartCrashSequence();
-                break;
-            case "Fuel":
-                Debug.Log("You got fuel");
-                break;
-            case "Finish":
-                StartSuccesSequence();
-                break;
-            default:
-                Debug.Log("You are launching");
-                break;
+            switch (other.gameObject.tag)
+            {
+                case "Friendly":
+                    Debug.Log("You are launching");
+                    break;
+                case "Finish":
+                    StartSuccesSequence();
+                    break;
+                default:
+                    StartCrashSequence();
+                    break;
+            }
         }
     }
 
     void StartCrashSequence()
     {
+        isTransitioning = true;
+        audioSource.Stop();
         audioSource.PlayOneShot(crashSound);
         GetComponent<Mover>().enabled = false;
         Invoke("ReloadLevel", delayTime);
@@ -44,6 +48,8 @@ public class CollisionHandler : MonoBehaviour
 
     void StartSuccesSequence()
     {
+        isTransitioning = true;
+        audioSource.Stop();
         audioSource.PlayOneShot(successSound);
         GetComponent<Mover>().enabled = false;
         Invoke("LoadNextLevel", delayTime);
