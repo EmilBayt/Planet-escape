@@ -11,6 +11,7 @@ public class Mover : MonoBehaviour
     [SerializeField] float thrustSpeed = 100f;
     [SerializeField] float rotationSpeed = 100f;
     [SerializeField] AudioClip engineSound;
+    [SerializeField] ParticleSystem rocketBoosterParticle;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,9 +36,14 @@ public class Mover : MonoBehaviour
             {
                 audioSource.PlayOneShot(engineSound);
             }
+            if (!rocketBoosterParticle.isPlaying)
+            {
+                rocketBoosterParticle.Play();
+            }
         } else
         {
             audioSource.Stop();
+            rocketBoosterParticle.Stop();
         }
     }
 
