@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Mover : MonoBehaviour
 {
@@ -31,19 +32,11 @@ public class Mover : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            rigidbody.AddRelativeForce(Vector3.up * Time.deltaTime * thrustSpeed);
-            if (!audioSource.isPlaying)
-            {
-                audioSource.PlayOneShot(engineSound);
-            }
-            if (!rocketBoosterParticle.isPlaying)
-            {
-                rocketBoosterParticle.Play();
-            }
-        } else
+            startThrust();
+        }
+        else
         {
-            audioSource.Stop();
-            rocketBoosterParticle.Stop();
+            stopThrust();
         }
     }
 
@@ -57,6 +50,25 @@ public class Mover : MonoBehaviour
         {
             ApplyRotation(-rotationSpeed);
         }
+    }
+
+    private void startThrust()
+    {
+        rigidbody.AddRelativeForce(Vector3.up * Time.deltaTime * thrustSpeed);
+        if (!audioSource.isPlaying)
+        {
+            audioSource.PlayOneShot(engineSound);
+        }
+        if (!rocketBoosterParticle.isPlaying)
+        {
+            rocketBoosterParticle.Play();
+        }
+    }
+
+    private void stopThrust()
+    {
+        audioSource.Stop();
+        rocketBoosterParticle.Stop();
     }
 
     void ApplyRotation(float rotationThisFrame)

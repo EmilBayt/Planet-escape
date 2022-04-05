@@ -478,6 +478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spaceship
       objectReference: {fileID: 0}
+    - target: {fileID: 8779418219857647523, guid: e200cff5465e8ba43b60e47838a1039e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e200cff5465e8ba43b60e47838a1039e, type: 3}
 --- !u!1001 &1230845155857059582

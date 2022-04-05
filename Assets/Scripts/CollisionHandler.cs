@@ -12,6 +12,7 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] ParticleSystem crashParticle;
     [SerializeField] ParticleSystem successParticle;
 
+    BoxCollider boxColider;
     AudioSource audioSource;
 
     bool isTransitioning = false;
@@ -20,7 +21,14 @@ public class CollisionHandler : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        boxColider = GetComponent<BoxCollider>();
     }
+
+    private void Update()
+    {
+        CheatCode();
+    }
+
     void OnCollisionEnter(Collision other)
     {
         if (!isTransitioning)
@@ -70,14 +78,26 @@ public class CollisionHandler : MonoBehaviour
     {
         int sceneIndex = SceneManager.GetActiveScene().buildIndex;
         int nextSceneIndex = sceneIndex + 1;
-        //int amountOfScenes = SceneManager.GetAllScenes().Length;
         if (nextSceneIndex == SceneManager.sceneCountInBuildSettings)
         {
             nextSceneIndex = 0;
         }
         SceneManager.LoadScene(nextSceneIndex);
-        /*if (sceneIndex + 1 != amountOfScenes)
-            SceneManager.LoadScene(sceneIndex + 1);
-        else SceneManager.LoadScene(0);*/
+    }
+
+    void CheatCode()
+    {
+        if (Input.GetKey(KeyCode.L))
+        {
+            LoadNextLevel();
+        }
+        if (Input.GetKey(KeyCode.C))
+        {
+            boxColider.isTrigger = true;
+        }
+        if (Input.GetKey(KeyCode.V))
+        {
+            boxColider.isTrigger = false;
+        }
     }
 }
