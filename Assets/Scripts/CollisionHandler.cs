@@ -16,6 +16,8 @@ public class CollisionHandler : MonoBehaviour
     AudioSource audioSource;
 
     bool isTransitioning = false;
+    bool coliderDisabled = false;
+    bool collisionDisabled = false;
 
 
     private void Start()
@@ -31,20 +33,18 @@ public class CollisionHandler : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (!isTransitioning)
+        if (isTransitioning || collisionDisabled) { return; }
+        switch (other.gameObject.tag)
         {
-            switch (other.gameObject.tag)
-            {
-                case "Friendly":
-                    Debug.Log("You are launching");
-                    break;
-                case "Finish":
-                    StartSuccesSequence();
-                    break;
-                default:
-                    StartCrashSequence();
-                    break;
-            }
+            case "Friendly":
+                Debug.Log("You are launching");
+                break;
+            case "Finish":
+                StartSuccesSequence();
+                break;
+            default:
+                StartCrashSequence();
+                break;
         }
     }
 
@@ -91,13 +91,14 @@ public class CollisionHandler : MonoBehaviour
         {
             LoadNextLevel();
         }
-        if (Input.GetKey(KeyCode.C))
+        else if (Input.GetKey(KeyCode.V))
         {
-            boxColider.isTrigger = true;
-        }
-        if (Input.GetKey(KeyCode.V))
+            coliderDisabled = !coliderDisabled;
+            boxColider.isTrigger = coliderDisabled;
+        } 
+        else if (Input.GetKey(KeyCode.C))
         {
-            boxColider.isTrigger = false;
+            collisionDisabled = !collisionDisabled;
         }
     }
 }
