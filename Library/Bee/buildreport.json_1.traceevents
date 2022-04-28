@@ -1,0 +1,545 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1651156272955700, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156272957082, "dur": 14972, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156272972300, "dur": 41820, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156273014176, "dur": 267531, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156273281709, "dur": 3373614, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156276655347, "dur": 10692, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156284624001, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156284624232, "dur": 16464, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156284640699, "dur": 32741, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156284673442, "dur": 2626223, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156287299668, "dur": 178729, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156287478398, "dur": 9109, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156287488115, "dur": 22, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1651156286631984, "dur": 647547, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651156286632872, "dur": 44761, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651156287262554, "dur": 5254, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651156287267812, "dur": 11709, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651156287268619, "dur": 9483, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651156287284483, "dur": 1143, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651156287283799, "dur": 1847, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156287488242, "dur": 188, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1651156287332206, "dur":1469, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287333680, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1651156287333728, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1651156287333739, "dur":482, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1651156287334247, "dur":486, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287334733, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287429986, "dur":193, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430179, "dur":45, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430224, "dur":46, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430270, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430299, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430302, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430330, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430331, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430358, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430359, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430366, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430367, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430408, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430410, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430416, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430417, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430423, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430424, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430431, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430432, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430440, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430441, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430447, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430449, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430458, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430493, "dur":18, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287430512, "dur":2306, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1651156287334336, "dur":447, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287334784, "dur":3769, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287338560, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1651156287338563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287340413, "dur":914, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1651156287341330, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1651156287341397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287341701, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1651156287344383, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1651156287344514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287345161, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1651156287347330, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287347583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287347839, "dur":4363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287352266, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287352528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287352540, "dur":5054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287357674, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287357898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287357906, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287359927, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287360098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287360106, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287362490, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287362659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287362666, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287364920, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287365103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287365111, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287367849, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287368142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287368154, "dur":3348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287371563, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287371797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287371805, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287375459, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287375596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287375605, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287378966, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287379204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287379212, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287382870, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287383126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287383135, "dur":6694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287389888, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287390269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287390279, "dur":3778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651156287394095, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1651156287394138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287394146, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1651156287395896, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1651156287396065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287396072, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1651156287398352, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1651156287398395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651156287398402, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1651156287400950, "dur":29035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651156287334683, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651156287334898, "dur":3686, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651156287338584, "dur":1040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1651156287339653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651156287342836, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1651156287345924, "dur":68577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651156287414504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651156287414512, "dur":15398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1651156287429952, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1651156287429955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287334454, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287334813, "dur":3744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287338560, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1651156287338940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287343463, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1651156287345759, "dur":1712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287347476, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287347809, "dur":4626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287352498, "dur":7022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287359524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287359533, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287361397, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287361574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287361583, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287364173, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287364342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287364349, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287366981, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287367159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287367167, "dur":11491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287378709, "dur":4411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287383124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287383132, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287386647, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287386813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287386824, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287390366, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287390566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287390575, "dur":3218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":3, "ts":1651156287393849, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651156287393911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287394025, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651156287395564, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1651156287395616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651156287395627, "dur":5331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1651156287401008, "dur":28978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287334572, "dur":279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287334851, "dur":3731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287338582, "dur":1054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1651156287339658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287342859, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1651156287345002, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1651156287345285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287345293, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1651156287347838, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287348006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287348107, "dur":4475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287352757, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287353001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287353008, "dur":6906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287359970, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287360258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287360266, "dur":4810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287365127, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287365367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287365375, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287368223, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287368683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287368696, "dur":4780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287373554, "dur":4070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287377628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287377639, "dur":5878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287383564, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287384411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287384418, "dur":4563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287389049, "dur":5098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287394150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651156287394159, "dur":8281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1651156287402475, "dur":27521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287334805, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287334806, "dur":3862, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287338668, "dur":502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1651156287339174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287345410, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1651156287347620, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287347788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287347894, "dur":3914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287351864, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287352224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287352238, "dur":7124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287359474, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287360036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287360044, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287362683, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287362849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287362859, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287365622, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287365797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287365807, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287368814, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287369558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287369565, "dur":4502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287374110, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287374311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287374320, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287376780, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287377140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287377151, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287380250, "dur":727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287380980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287380987, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287383183, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287383448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287383457, "dur":2744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287386249, "dur":2541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287388793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287388801, "dur":7552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651156287396389, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1651156287396447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651156287396479, "dur":4452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1651156287400983, "dur":29036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287334922, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287334922, "dur":3639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287338562, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1651156287338753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287342858, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1651156287345630, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1651156287345735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287345743, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1651156287348127, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287348300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287348307, "dur":4423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287352791, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287353035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287353042, "dur":4982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287358094, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287358592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287358778, "dur":6336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287365534, "dur":1819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287367356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287367365, "dur":3354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287370773, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287371101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287371111, "dur":3915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287375069, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287375236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287375269, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287378260, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287378394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287378401, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287381448, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287381731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287381738, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287384577, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287385153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287385162, "dur":3513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287388711, "dur":861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287389576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287389586, "dur":5994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651156287395759, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1651156287395874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287395882, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1651156287398050, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1651156287398101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651156287398108, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1651156287400558, "dur":29429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287335026, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287335026, "dur":3530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287338560, "dur":1102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1651156287339665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287342866, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1651156287344549, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1651156287345151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287345218, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1651156287346645, "dur":3259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1651156287349910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287349922, "dur":2536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1651156287352527, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287352810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287352822, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287356270, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287356418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287356426, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287358823, "dur":1230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287360057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287360065, "dur":4340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287364443, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287364612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287364645, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287367982, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287368682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287368695, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287372425, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287372581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287372590, "dur":4645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287377298, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287377649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287377667, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287380910, "dur":3175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287384088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287384123, "dur":15913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651156287400083, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1651156287400286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651156287400296, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1651156287401915, "dur":28109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287335142, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287335142, "dur":3474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287338616, "dur":1707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1651156287340326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287342588, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1651156287345011, "dur":1402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1651156287346416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287346424, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1651156287348412, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287348600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287348608, "dur":4221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287352890, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287353068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287353076, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287358035, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287358231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287358239, "dur":2194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287360480, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287360676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287360712, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287363614, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287363840, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287363896, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287366311, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287366499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287366510, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287369451, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287369598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287369605, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287374104, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287374293, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287374320, "dur":4675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287379694, "dur":880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287380579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287380631, "dur":2623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287383303, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287383545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287383553, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287386568, "dur":2145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287388717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287388725, "dur":6530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651156287395309, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1651156287395359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287395368, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1651156287396925, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1651156287396993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287397002, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1651156287400074, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1651156287400292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651156287400299, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1651156287401846, "dur":28179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287335262, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287335263, "dur":3352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287338616, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1651156287339060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287344715, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1651156287346651, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape.exe" }}
+,{ "pid":12345, "tid":9, "ts":1651156287347394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287347400, "dur":9530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape.exe" }}
+,{ "pid":12345, "tid":9, "ts":1651156287357059, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287357396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287357404, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287359784, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287359957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287359967, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287362098, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287362312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287362323, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287364545, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287364723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287364731, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287367419, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287367571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287367579, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287370736, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287370936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287370943, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287375515, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287375849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287375857, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287379185, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287379417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287379471, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287382710, "dur":1067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287383781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287383790, "dur":5113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287389047, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287389434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287389446, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287392623, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287392789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287392797, "dur":3113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1651156287395964, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level4.resS" }}
+,{ "pid":12345, "tid":9, "ts":1651156287396005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287396012, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level4.resS" }}
+,{ "pid":12345, "tid":9, "ts":1651156287398264, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1651156287398309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1651156287398319, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1651156287401082, "dur":28939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287335361, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287335362, "dur":3221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287338584, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1651156287338906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287343160, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1651156287345458, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1651156287345600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287345619, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1651156287347139, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1651156287347245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287347750, "dur":9214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1651156287357008, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287357228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287357237, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287359923, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287360115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287360123, "dur":3951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287364120, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287364273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287364281, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287366548, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287366737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287366747, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287370149, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287370497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287370505, "dur":4150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287374696, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287374924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287374942, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287378175, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287378323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287378329, "dur":2963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287381344, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287381532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287381559, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287384040, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287384228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287384237, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287387380, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287387729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287387741, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287390701, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287391117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287391126, "dur":5223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1651156287396388, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level3.resS" }}
+,{ "pid":12345, "tid":10, "ts":1651156287396433, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287396439, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level3.resS" }}
+,{ "pid":12345, "tid":10, "ts":1651156287398933, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1651156287398988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1651156287398997, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1651156287401264, "dur":28732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651156287335458, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651156287335458, "dur":3125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651156287338583, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1651156287338965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651156287343637, "dur":2222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1651156287345910, "dur":15351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651156287361266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651156287361355, "dur":26636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651156287388035, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651156287388498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651156287388514, "dur":5825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1651156287394380, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1651156287394419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651156287394426, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1651156287396240, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level4" }}
+,{ "pid":12345, "tid":11, "ts":1651156287396285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651156287396292, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level4" }}
+,{ "pid":12345, "tid":11, "ts":1651156287398535, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1651156287398575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1651156287398581, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1651156287401192, "dur":28836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287335508, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287335508, "dur":3050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287338560, "dur":1027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1651156287339590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287342951, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1651156287345203, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1651156287345317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287345326, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1651156287347990, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287348176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287348183, "dur":6331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287354565, "dur":712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287355281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287355296, "dur":5107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287360457, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287360781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287360789, "dur":2860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287363709, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287364045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287364053, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287366266, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287366581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287366591, "dur":3346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287369985, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287370190, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287370236, "dur":4323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287374637, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287374797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287374808, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287378626, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287379024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287379032, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287382523, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287382968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287382977, "dur":3677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287386690, "dur":1377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287388071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287388090, "dur":4491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1651156287392629, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1651156287392685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287392760, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1651156287395942, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1651156287396095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287396102, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1651156287398361, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1651156287398406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1651156287398414, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baitemirov/Desktop/Emil/private/entertainment/Unity/Builds/Planet escape_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1651156287400702, "dur":29288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651156287434880, "dur":1957, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1651156287488496, "dur": 636, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651156287488104, "dur": 1056, "ph": "X", "name": "Write chrome-trace events", "args": {} },
